@@ -9,7 +9,7 @@ Dark Admin Bootstrap Template by Bootstrapious.com
  */
 /*
 * ==========================================================
-*     GENERAL STYLING 
+*     GENERAL STYLING
 * ==========================================================
 */
 body {
@@ -223,7 +223,7 @@ pre {
 
 .page-content {
   position: relative;
-  background: #22252a;
+  background: #EFF4F6;
   min-height: 100vh;
   width: calc(100% - 280px);
   padding: 0;
@@ -236,8 +236,8 @@ pre {
 
 .page-header {
   padding: 20px 15px;
-  background: #2d3035;
-  color: #8a8d93;
+  background: #D0D9D3;
+  color: #436850;
   margin-bottom: 30px;
 }
 
@@ -394,11 +394,11 @@ i[class*='icon-'] {
 * ==========================================================
 */
 nav.navbar {
-  background: #2d3035;
-  color: #8a8d93;
+  background: #D0D9D3;
+  color: #436850;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #34373d;
+  border-bottom: 1px solid #34373d33;
   z-index: 10;
 }
 
@@ -408,10 +408,10 @@ nav.navbar .sidebar-toggle {
   line-height: 29px;
   text-align: center;
   border-radius: 50%;
-  background: #282b2f;
-  color: #8a8d93;
+  background: #436850;
+  color: #e4e4e4;
   font-size: 1.1rem;
-  border: 2px solid #3d4148;
+  border: 2px solid #8cbb9c;
   outline: none;
 }
 
@@ -714,9 +714,9 @@ nav.navbar .dropdown .dropdown-menu.active {
 * ==========================================================
 */
 nav#sidebar {
-  width: 280px;
-  background: #2d3035;
-  color: #6a6c70;
+  width: 315px;
+  background: #436850;
+  color: #eeeeee ;
   border-right: 1px solid #34373d;
   /* shrinked navbar */
 }
@@ -773,7 +773,7 @@ nav#sidebar .sidebar-header p {
 nav#sidebar span.heading {
   font-weight: 700;
   margin-left: 20px;
-  color: #494d53;
+  color: #D0D9D3;
   font-size: 1.2rem;
   margin-bottom: 15px;
 }
@@ -808,11 +808,11 @@ nav#sidebar li a {
 }
 
 nav#sidebar li a:hover {
-  background: #34373d;
+  background: #64b37e ;
 }
 
 nav#sidebar li a:hover i {
-  color: #DB6574;
+  color: #d8d8d8;
 }
 
 nav#sidebar li a i {
@@ -820,7 +820,7 @@ nav#sidebar li a i {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding-right: 20px;
-  border-right: 1px solid #454649;
+  border-right: 1px solid #4546493b;
 }
 
 nav#sidebar li li a {
@@ -850,20 +850,21 @@ nav#sidebar li::before {
 }
 
 nav#sidebar li.active::before {
-  background: #DB6574;
+  background: #ffffff;
 }
 
+/* active  */
 nav#sidebar li.active > a {
-  background: #34373d;
-  color: #bfc1c4;
+  background: #64b37e;
+  color: #d0d9d3;
 }
 
 nav#sidebar li.active i {
-  color: #DB6574;
+  color: #007428;
 }
 
 nav#sidebar li li.active > a {
-  background: #292c32;
+  background: #007428;
 }
 
 nav#sidebar.shrinked {
@@ -993,8 +994,8 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 /* Statistic Block */
 .statistic-block {
   padding: 20px;
-  background: #2d3035;
-  color: #8a8d93;
+  background: #b7dac3;
+  color: #436850;
 }
 
 .statistic-block .title {
@@ -1009,14 +1010,14 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 .statistic-block strong {
   text-transform: uppercase;
   font-size: 0.9rem;
-  color: #8a8d93;
+  color: #436850;
   margin-bottom: 5px;
 }
 
 .statistic-block .icon {
   margin-bottom: 5;
   font-size: 1.2rem;
-  color: #8a8d93;
+  color: #436850;
 }
 
 .statistic-block .number {
@@ -1029,7 +1030,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
   height: 4px;
   border-radius: 30px;
   overflow: hidden;
-  background: #393c43;
+  background: #b7dac3;
   margin-top: 5px;
 }
 
@@ -1054,14 +1055,14 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 /* Scans Block */
 .stats-2-block .stats-2 {
   width: 50%;
-  color: #8a8d93;
+  color: #436850;
   position: relative;
   padding-right: 50px;
 }
 
 .stats-2-block .stats-2::after {
   content: '';
-  background: #40444b;
+  background: #b7dac3;
   width: 1px;
   height: 80%;
   display: block;
@@ -1105,7 +1106,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 }
 
 .stats-2-block .stats-2-arrow.low {
-  color: #dc3545;
+  color: #35dc6d;
 }
 
 .stats-2-block .stats-2-arrow.height {
@@ -1122,14 +1123,14 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 /* Requests Block */
 .stats-3-block .stats-3 {
   width: 50%;
-  color: #8a8d93;
+  color: #436850;
   position: relative;
   padding-right: 50px;
 }
 
 .stats-3-block .stats-3::after {
   content: '';
-  background: #40444b;
+  background: #b7dac3;
   width: 1px;
   height: 80%;
   display: block;
@@ -1172,7 +1173,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 
 .stats-3-block .progress {
   margin-top: 10px;
-  background: #393c43;
+  background: #b7dac3;
   max-width: 150px;
 }
 
@@ -1185,7 +1186,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
   margin: 10px auto;
   width: 30px;
   height: 1px;
-  background: #40444b;
+  background: #b7dac3;
 }
 
 .stats-3-block small {
@@ -1677,7 +1678,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 
 /*
 * ==========================================================
-*     FORMS 
+*     FORMS
 * ==========================================================
 */
 .form-control {
@@ -1964,7 +1965,7 @@ input.input-material ~ label.active {
 }
 
 input.input-material ~ label.is-invalid ~ label {
-  color: #bb414d;
+  color: #ff0019;
 }
 
 .form-group-material {
@@ -2030,7 +2031,7 @@ input.input-material ~ label.is-invalid ~ label {
 
 .table td,
 .table th {
-  border-color: #343a40;
+  border-color: #5d7466;
 }
 
 .table thead th {
@@ -2087,8 +2088,8 @@ STYLE SWITCHER FOR DEMO
   z-index: 2000;
 }
 
-/* ========================================= 
-   THEMING OF BOOTSTRAP COMPONENTS           
+/* =========================================
+   THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
 /*
  * 1. NAVBAR
@@ -2814,7 +2815,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /*
- * 3. TYPE  
+ * 3. TYPE
  */
 body {
   font-family: "Muli", sans-serif;
@@ -2945,7 +2946,7 @@ mark,
 }
 
 .text-primary {
-  color: #DB6574 !important;
+  color: #3da863 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
@@ -3133,7 +3134,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-primary {
-  color: #DB6574 !important;
+  color: #3da863 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
